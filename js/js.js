@@ -1493,7 +1493,6 @@ function init () {
         str += '<li>' + '<div class="block-1">' + '<div class="location-1" style="background-image:url(' + data[i].Picture1 + ')">' + '<h3>' + data[i].Name + '</h3>' + '<p>' + data[i].Zone + '</p>' + '</div>' + '<ul class="information">' + '<li>' + '<img src="https://imgur.com/dyhewN4.png">' + data[i].Opentime + '</li>' + '<li>' + '<img src="https://imgur.com/vkRWvqY.png">' + data[i].Add + '</li>' + '<li>' + '<img src="https://imgur.com/jKLTUKa.png">' + data[i].Tel + '<img class="info" src="https://imgur.com/dOxuSbw.png">' + data[i].Ticketinfo + '</span>' + '</li>' + '</ul>' + '</div>' + '</li>'
     }
     zone.innerHTML = str;
-    el.innerHTML = select;
 }
 init();
 
