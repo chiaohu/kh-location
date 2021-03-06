@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrap{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header{
+  background-image: url(https://imgur.com/3j6B8Sj.png);
+  width: 1024px;
+  height: 350px;
+  background-position: center center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+h1{
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 20px;
+}
+.list{
+    width: 400px;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: rgb(221, 226, 235,0.6);
+    border: 3px solid white;
+    border-radius: 5px;
+   margin-bottom: 20px;
+}
+.hotplace{
+  background: white;
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
+  margin-top: 60px;
+}
+.hotplace h2{
+  font-size: 20px;
+  padding: 20px;
+}
+.hotplace ul{
+  display:flex;
+  justify-content: space-evenly;
+}
+input{
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.purple{
+  background: purple;
+}
+.orange{
+  background: orange;
+}
+.pink{
+  background: pink;
+}
+.blue{
+  background: blue;
+}
+.line{
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 900px;
+  border-bottom: 3px dashed green;
+}
+.content h2{
+  font-size: 36px;
+  font-weight: bold;
+  color: #8A82CC;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.content .zone{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.block-1{
+  width: 470px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 1px gray; 
+  margin-right: 10px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+.location-1{
+  width: 470px;
+  height: 200px;
+  position: relative;
+  background-size: 100%;
+}
+.location-1 h3{
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.location-1 p{
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+.information li{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+.information img{
+  padding-right: 5px;
+  vertical-align: middle;
+  width: 15px;
+}
+.info {
+  padding-left: 240px;
+}
+.footer{
+  width: 1024px;
+  margin: 0 auto;
+  background: #559AC8;
+}
+.footer h3{
+  padding-top: 10px;
+  
+  text-align: center;
+  color: white;
+}
+.footer p{
+  color: #FFD366;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.gotop{
+  position: fixed;
+  right: 160px;
+  bottom: 30px;
+}
+
