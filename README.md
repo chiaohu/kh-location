@@ -8,7 +8,7 @@
 * 將高雄旅遊網的API資料整理透過選單篩選出各地區的景點與詳細資訊。
 
 ### Skill 
-* HTML5 
+* HTML
 * CSS 
 * Javascript 
 * jQuery
